@@ -1,0 +1,65 @@
+[Data]
+    AutoPartition="1"
+    MsDosInitiated="0"
+    UnattendedInstall="Yes"
+
+[Unattended]
+    UnattendMode="FullUnattended"
+UnattendSwitch="yes" 
+AutoActivate="Yes"
+    OemSkipEula="Yes"
+    OemPreinstall="Yes"
+NoWaitAfterTextMode="1"
+NoWaitAfterGuiMode="1"
+    TargetPath=\WINDOWS
+Repartition=yes
+WaitForReboot=No
+KeyboardLayout="US"
+
+[GuiUnattended]
+    AdminPassword=*
+    EncryptedAdminPassword=NO
+    OEMSkipRegional=1
+    TimeZone=4
+    OemSkipWelcome=1
+
+[UserData]
+    ProductID="PUT LICENSE KEY HERE"
+    FullName="User"
+    OrgName=""
+    ComputerName=custom
+
+[RegionalSettings]
+    LanguageGroup=1
+    Language=00000409
+
+[Branding]
+    BrandIEUsingUnattended=Yes
+
+[URL]
+    Home_Page=http://www.google.com
+    Search_Page=http://www.google.com
+
+[Proxy]
+    Proxy_Enable=0
+    Use_Same_Proxy=1
+
+[Identification]
+    JoinWorkgroup=WORKGROUP
+
+[Networking]
+    InstallDefaultComponents=Yes
+
+[Components]
+msmsgs=off
+msnexplr=off
+freecell=off
+hearts=off
+minesweeper=off
+pinball=on
+solitaire=off
+spider=off
+zonegames=off
+
+[GuiRunOnce]
+%systemdrive%\apps\apps.bat
