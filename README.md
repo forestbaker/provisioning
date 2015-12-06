@@ -36,5 +36,42 @@ hotfixrun.bat
 
 RD /S/Q c:\hotfixes 
 
-:END 
-------------------- 
+TIPS for WINDOWS
+FASTER BOOT SPEED & WINDOWS 2000/XP DUAL-BOOT FIX 
+Replace the NTLDR & NTDETECT.COM with the XP versions of these files. 
+This is a good idea because if you install Windows 2000 as a dual-boot 
+with Windows XP then the Windows XP NTLDR & NTDETECT.COM will be 
+overwritten with the Windows 2000 versions which will make your 
+Windows XP unable to boot. By replacing NTLDR & NTDETECT.COM on the CD
+ then when you install Windows 2000 you will get the benefits of the 
+updated NTLDR & NTDETECT.COM and also the ability to boot both operating
+ systems. (If you do not do this then you will have to replace the files manually after installing Windows 2000) 
+
+good idea
+ipconfig /all > C:\IPInfo.txt
+
+random number
+%random%
+
+ Silent install (automatic and unattended install) of ie. IE6, Media Player 
+or any *.MSI based file 
+ A silent, or unattended, installation is one that presents no user interface.
+To run an installation silently, use a command like this in a batch file 
+MsiExec /I D:\Example.msi /qn
+
+Note: The /q option specifies the "level" of user interface to display, 
+and the n specifies that no interface should be displayed.
+ Msiexec.exe is located in the system32 folder on Windows 2000 and XP.
+ 
+http://www.3iii.dk/computer/W2Kboot.htm
+
+add/remove control panel hide
+
+SYSOC.INF
+
+To remove Windows Messenger, edit hide out of the line that reads 
+msmsgs=msgrocm.dll,OcEntry,msmsgs.inf,hide,7
+
+so that it looks like this:
+
+msmsgs=msgrocm.dll,OcEntry,msmsgs.inf,7
