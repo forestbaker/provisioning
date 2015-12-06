@@ -1,0 +1,9 @@
+this is a directory
+
+::contains two sub-folders
+All Users
+Default User
+
+::create these subfolders beneath 'All Users & Default User'
+Start Menu > Programs > Startup
+My Documents
