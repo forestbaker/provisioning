@@ -1,0 +1,284 @@
+List of directories to display that some require a $ or two.
+
+├── Baseline SP2
+├── Win2k CD Files
+│   ├── 8-20-05 i386
+│   │   ├── drivertmp
+│   │   └── I386
+│   │       ├── COMPDATA
+│   │       ├── LANG
+│   │       ├── SYSTEM32
+│   │       ├── UNIPROC
+│   │       ├── WIN9XMIG
+│   │       ├── WIN9XUPG
+│   │       └── WINNTUPG
+│   ├── Cut Out
+│   │   ├── adobereader6
+│   │   ├── DirectX9
+│   │   ├── WMP10
+│   │   └── wmp9
+│   ├── Good Progs
+│   │   ├── 7-Zip
+│   │   ├── Acrobat Reader 7
+│   │   ├── Directx 8 for Win2k
+│   │   ├── DirectX 9x redistributable
+│   │   │   └── dxsetup
+│   │   ├── FireFox
+│   │   ├── IRfanView
+│   │   ├── IZarc Unzip
+│   │   ├── K-lite Codecs
+│   │   ├── MS Media Player 10
+│   │   │   └── mp10setup
+│   │   └── MS Media Player 9
+│   ├── HotFixes
+│   │   └── QCHAIN
+│   ├── Win2k CD
+│   │   ├── BOOTDISK
+│   │   ├── Extras
+│   │   ├── I386
+│   │   │   ├── COMPDATA
+│   │   │   ├── LANG
+│   │   │   ├── SVCPACK
+│   │   │   ├── SYSTEM32
+│   │   │   ├── UNIPROC
+│   │   │   ├── WIN9XMIG
+│   │   │   ├── WIN9XUPG
+│   │   │   └── WINNTUPG
+│   │   ├── $OEM$
+│   │   │   ├── $$
+│   │   │   │   └── System32
+│   │   │   ├── $1
+│   │   │   │   └── Apps
+│   │   │   │       ├── DirectX9
+│   │   │   │       ├── FireFox
+│   │   │   │       ├── IR
+│   │   │   │       ├── klite
+│   │   │   │       ├── nero
+│   │   │   │       ├── spybot
+│   │   │   │       └── zip
+│   │   │   └── $Docs
+│   │   │       ├── All Users
+│   │   │       │   ├── My Documents
+│   │   │       │   │   └── Remote Backup
+│   │   │       │   └── Start Menu
+│   │   │       │       └── Programs
+│   │   │       │           └── Startup
+│   │   │       └── Default User
+│   │   ├── SUPPORT
+│   │   └── Update
+│   │       └── Remote Desktop Client
+│   └── Win2k CD - Copy
+│       ├── Apps
+│       │   ├── avg
+│       │   ├── ccleaner
+│       │   ├── defraggler
+│       │   ├── DirectX9
+│       │   ├── filezilla
+│       │   ├── FireFox
+│       │   ├── foxit
+│       │   ├── IR
+│       │   ├── klite
+│       │   ├── nero
+│       │   ├── pidgin
+│       │   ├── spybot
+│       │   └── zip
+│       ├── BOOTDISK
+│       ├── Extras
+│       ├── I386
+│       │   ├── COMPDATA
+│       │   ├── LANG
+│       │   ├── SVCPACK
+│       │   ├── SYSTEM32
+│       │   ├── UNIPROC
+│       │   ├── WIN9XMIG
+│       │   ├── WIN9XUPG
+│       │   └── WINNTUPG
+│       ├── $OEM$
+│       │   ├── $$
+│       │   │   └── System32
+│       │   ├── $1
+│       │   └── $Docs
+│       │       ├── All Users
+│       │       │   ├── Desktop
+│       │       │   ├── My Documents
+│       │       │   │   └── Remote Backup
+│       │       │   └── Start Menu
+│       │       │       └── Programs
+│       │       │           └── Startup
+│       │       └── Default User
+│       ├── SUPPORT
+│       └── Update
+│           └── Remote Desktop Client
+└── XP
+    ├── Cut off from the Source
+    │   └── WinISO
+    ├── Group Policy Templates
+    │   └── GroupPolicy
+    │       ├── Adm
+    │       ├── Machine
+    │       │   └── Scripts
+    │       │       ├── Shutdown
+    │       │       └── Startup
+    │       └── User
+    │           ├── MICROSOFT
+    │           │   └── IEAK
+    │           │       └── LOCK
+    │           └── Scripts
+    │               ├── Logoff
+    │               └── Logon
+    ├── OLD winnt.sifs
+    ├── SP1
+    ├── SP2
+    ├── XP SP1 modified
+    │   ├── DOCS
+    │   ├── I386
+    │   │   ├── ASMS
+    │   │   │   ├── 1000
+    │   │   │   │   └── MSFT
+    │   │   │   │       └── WINDOWS
+    │   │   │   │           └── GDIPLUS
+    │   │   │   ├── 10100
+    │   │   │   │   ├── Msft
+    │   │   │   │   │   └── Windows
+    │   │   │   │   │       └── GdiPlus
+    │   │   │   │   └── policy
+    │   │   │   │       └── Msft
+    │   │   │   │           └── Windows
+    │   │   │   │               └── GdiPlus
+    │   │   │   ├── 5100
+    │   │   │   │   └── MSFT
+    │   │   │   │       └── WINDOWS
+    │   │   │   │           └── SYSTEM
+    │   │   │   │               └── DEFAULT
+    │   │   │   ├── 6000
+    │   │   │   │   └── MSFT
+    │   │   │   │       ├── VCRTL
+    │   │   │   │       └── WINDOWS
+    │   │   │   │           └── COMMON
+    │   │   │   │               └── CONTROLS
+    │   │   │   ├── 60100
+    │   │   │   │   ├── Msft
+    │   │   │   │   │   └── Windows
+    │   │   │   │   │       └── Common
+    │   │   │   │   │           └── Controls
+    │   │   │   │   └── policy
+    │   │   │   │       └── 60100
+    │   │   │   │           └── comctl
+    │   │   │   ├── 7000
+    │   │   │   │   └── MSFT
+    │   │   │   │       └── WINDOWS
+    │   │   │   │           └── MSWINCRT
+    │   │   │   └── 70100
+    │   │   │       ├── msft
+    │   │   │       │   └── windows
+    │   │   │       │       └── mswincrt
+    │   │   │       └── policy
+    │   │   │           └── msft
+    │   │   │               └── mswincrt
+    │   │   ├── COMPDATA
+    │   │   ├── DRW
+    │   │   │   └── 1033
+    │   │   ├── LANG
+    │   │   ├── SYSTEM32
+    │   │   └── update
+    │   ├── $OEM$
+    │   │   ├── $$
+    │   │   │   └── System32
+    │   │   └── $1
+    │   │       └── Apps
+    │   │           ├── adobereader6
+    │   │           ├── CDex
+    │   │           ├── DirectX9
+    │   │           ├── kazaalite
+    │   │           ├── movie2
+    │   │           ├── nero
+    │   │           ├── netframework
+    │   │           ├── tmp
+    │   │           ├── WinISO
+    │   │           ├── winrar
+    │   │           └── wmp9
+    │   ├── SUPPORT
+    │   └── VALUEADD
+    └── XP SP1 modified 4-16-04
+        ├── Apps
+        │   ├── adobereader6
+        │   ├── cddarip
+        │   ├── DirectX9
+        │   ├── nero
+        │   ├── SpyBot
+        │   ├── tmp
+        │   ├── winrar
+        │   └── wmp9
+        ├── DOCS
+        ├── I386
+        │   ├── ASMS
+        │   │   ├── 1000
+        │   │   │   └── MSFT
+        │   │   │       └── WINDOWS
+        │   │   │           └── GDIPLUS
+        │   │   ├── 10100
+        │   │   │   ├── Msft
+        │   │   │   │   └── Windows
+        │   │   │   │       └── GdiPlus
+        │   │   │   └── policy
+        │   │   │       └── Msft
+        │   │   │           └── Windows
+        │   │   │               └── GdiPlus
+        │   │   ├── 5100
+        │   │   │   └── MSFT
+        │   │   │       └── WINDOWS
+        │   │   │           └── SYSTEM
+        │   │   │               └── DEFAULT
+        │   │   ├── 6000
+        │   │   │   └── MSFT
+        │   │   │       ├── VCRTL
+        │   │   │       └── WINDOWS
+        │   │   │           └── COMMON
+        │   │   │               └── CONTROLS
+        │   │   ├── 60100
+        │   │   │   ├── Msft
+        │   │   │   │   └── Windows
+        │   │   │   │       └── Common
+        │   │   │   │           └── Controls
+        │   │   │   └── policy
+        │   │   │       └── 60100
+        │   │   │           └── comctl
+        │   │   ├── 7000
+        │   │   │   └── MSFT
+        │   │   │       └── WINDOWS
+        │   │   │           └── MSWINCRT
+        │   │   └── 70100
+        │   │       ├── msft
+        │   │       │   └── windows
+        │   │       │       └── mswincrt
+        │   │       └── policy
+        │   │           └── msft
+        │   │               └── mswincrt
+        │   ├── COMPDATA
+        │   ├── DRW
+        │   │   └── 1033
+        │   ├── LANG
+        │   └── SYSTEM32
+        └── $OEM$
+            ├── $$
+            │   └── System32
+            ├── $1
+            │   └── Drivers
+            │       └── SI3112r
+            ├── $Docs
+            │   ├── All Users
+            │   │   ├── My Documents
+            │   │   └── Start Menu
+            │   │       └── Programs
+            │   │           ├── eMule
+            │   │           └── Startup
+            │   └── Default User
+            │       ├── My Documents
+            │       └── Start Menu
+            │           └── Programs
+            │               ├── eMule
+            │               └── Startup
+            └── $Progs
+                ├── eMule
+                │   └── webserver
+                └── Media Player Classic
