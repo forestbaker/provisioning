@@ -1,0 +1,12 @@
+[COMMANDS]
+"RunOnceEx.cmd"
+"regedit /S regtweak.reg"
+
+
+
+:: This file is run at the t-13 minute mark in the install
+:: commands run from this MUST use " " and 8.3 naming
+::
+:: Calling regtweak from this point in the install
+:: allows for settings to be changed for IE and Explorer before
+:: they have been run for the first time.
