@@ -1,0 +1,26 @@
+[Version] 
+Signature="$Windows NT$"
+MajorVersion=5
+MinorVersion=1
+BuildNumber=2600
+
+[SetupData]
+CatalogSubDir="\i386\Update"
+
+[ProductCatalogsToInstall]
+KB826939.cat
+
+[SetupHotfixesToRun]
+update.exe -q -n
+Q330994.exe /Q:A /R:N
+Q816093.exe /U /N /Z /O
+q819639.exe /Q:A /R:N
+Q823182.exe /U /N /Z /O
+Q824105.exe /U /N /Z /O
+Q824141.exe /U /N /Z /O
+q824145.exe /Q:A /R:N
+Q825119.exe /U /N /Z /O
+Q828026.exe /U /N /Z /O
+Q828035.exe /U /N /Z /O
+Q828750.exe /Q:A /R:N
+qchain.exe
